@@ -1,0 +1,13 @@
+server:
+service:
+type: ClusterIP
+
+alertmanager:
+enabled: true
+
+grafana:
+enabled: true
+
+prometheus:
+prometheusSpec:
+serviceMonitorSelectorNilUsesHelmValues: false
