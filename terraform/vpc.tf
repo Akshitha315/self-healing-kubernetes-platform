@@ -1,30 +1,18 @@
-resource "aws_vpc" " main" {
-cidr_block = 10.0.0.0/16"
-enable_dns_support = true
-enable_dns_hostnames = true
+module "vpc" {
+source = "terraform-aws-modules/vpc/aws"
+
+name = "eks-vpc"
+cidr = "10.0.0.0/16"
+
+azs = ["ap-south-1a", "ap-south-1b"]
+private_subnets = ["10.0.1.0/24", "10.0.2.0/24"]
+public_subnets = ["10.0.101.0/24", "10.0.102.0/24"]
+
+enable_nat_gateway = true
+single_nat_gateway = true
 
 tags = {
-Name = "eks-vpc"
-}
-}
-
-resouce "aws_subnet" "public_1" {
-vpc_id = aws_vpc.main.id
-cidr_block = "10.0.1.0/24"
-availability_zone = "ap_south-1a"
-map_public_ip_on_launch = true
-
-tags = {
-Name = "public-subnet-1"
-}
-}
-
-resource "aws_subnet" "public_2" {
-vpc_id = aws_vpc.main.id
-cidr_block = "10.0.2.0/24"
-map_public_ip_on_launch = true
-
-tags = {
-Name = "public-subnet-2"
+Terraform = "true"
+Environment = "dev"
 }
 }
