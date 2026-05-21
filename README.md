@@ -37,3 +37,4 @@ monitoring/
 helm/
 argocd/
 automation/
+app/
