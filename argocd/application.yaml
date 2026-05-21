@@ -1,0 +1,22 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+
+metadata:
+  name: sre-app
+
+spec:
+  project: default
+
+  source:
+    repoURL: https://github.com/Akshitha315/self-healing-kubernetes-platform.git
+    targetRevision: HEAD
+    path: helm/sre-app
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
