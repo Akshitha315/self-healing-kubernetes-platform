@@ -6,26 +6,26 @@ Production-grade Kubernetes platform built using AWS EKS, Terraform, Helm, ArgoC
 
 ## Features
 
-•⁠  ⁠Infrastructure provisioning using Terraform
-•⁠  ⁠Kubernetes deployment using Helm
-•⁠  ⁠GitOps workflow using ArgoCD
-•⁠  ⁠Monitoring with Prometheus and Grafana
-•⁠  ⁠Automated self-healing recovery script
-•⁠  ⁠Kubernetes liveness and readiness probes
-•⁠  ⁠Production-style deployment structure
+- ⁠Infrastructure provisioning using Terraform
+- ⁠Kubernetes deployment using Helm
+- ⁠GitOps workflow using ArgoCD
+- ⁠Monitoring with Prometheus and Grafana
+- ⁠Automated self-healing recovery script
+- Kubernetes liveness and readiness probes
+- Production-style deployment structure
 
 ---
 
 ## Tech Stack
 
-•⁠  ⁠AWS EKS
-•⁠  ⁠Terraform
-•⁠  ⁠Kubernetes
-•⁠  ⁠Helm
-•⁠  ⁠ArgoCD
-•⁠  ⁠Prometheus
-•⁠  ⁠Grafana
-•⁠  ⁠Python
+- ⁠AWS EKS
+- ⁠Terraform
+- Kubernetes
+- ⁠Helm
+- ⁠ArgoCD
+- ⁠Prometheus
+- Grafana
+- Python
 
 ---
 
