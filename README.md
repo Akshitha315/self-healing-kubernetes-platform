@@ -38,3 +38,7 @@ helm/
 argocd/
 automation/
 app/
+
+## Architecture
+
+! [Architecture] (screenshots/architecture.png)
