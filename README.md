@@ -55,7 +55,7 @@ terraform apply
 helm install sre-app ./helm/sre-app
 ```
 
-##Verify Deployment
+## Verify Deployment
 
 ``` bash
 kubectl get nodes
@@ -94,7 +94,7 @@ app/
 ### Kubernetes Nodes
 ![Nodes](screenshots/nodes.png)
 
-### Kubernetes pods
+### Kubernetes Pods
 ![Pods](screenshots/pods.png)
 
 ### Kubernetes Services
