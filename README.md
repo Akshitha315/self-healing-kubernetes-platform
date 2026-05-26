@@ -42,7 +42,7 @@ app/
 
 ## Architecture
 
-! [Architecture](screenshots/architecture.png)
+![Architecture](screenshots/architecture.png)
 
 ## Screenshots
 
