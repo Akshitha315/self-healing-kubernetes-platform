@@ -6,15 +6,13 @@ metadata:
 
 spec: 
   rules:
-  - host: sre-app.local
-
-    http:
-    paths:
-    - path: /
-      pathType: Prefix
-
-      backend:
-        service:
-          name: sre-app-service
-          port:
-            number: 80
+    - host: sre-app.local
+      http:
+        paths:
+         - path: /
+           pathType: Prefix
+           backend:
+             service:
+               name: sre-app-service
+               port:
+                 number: 80
