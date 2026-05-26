@@ -26,6 +26,7 @@ Production-grade Kubernetes platform built using AWS EKS, Terraform, Helm, ArgoC
 - ⁠Prometheus
 - Grafana
 - Python
+- Nginx
 
 ---
 
@@ -41,4 +42,19 @@ app/
 
 ## Architecture
 
-! [Architecture] (screenshots/architecture.png)
+! [Architecture](screenshots/architecture.png)
+
+## Screenshots
+
+### Kubernetes Nodes
+![Nodes](screenshots/nodes.png)
+
+### Kubernetes pods
+![Pods](screenshots/pods.png)
+
+### Kubernetes Services
+![Services](screenshots/services.png)
+
+### Application Output
+![App Output](screenshots/app-output.png)
+
