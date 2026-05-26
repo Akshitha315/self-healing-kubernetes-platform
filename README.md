@@ -38,7 +38,7 @@ monitoring/
 helm/
 argocd/
 automation/
-app/
+app/```
 
 ## Architecture
 
