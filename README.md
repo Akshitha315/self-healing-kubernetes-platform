@@ -38,8 +38,8 @@ monitoring/
 helm/
 argocd/
 automation/
-app/```
-
+app/
+```
 ## Architecture
 
 ![Architecture](screenshots/architecture.png)
